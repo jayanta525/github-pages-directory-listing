@@ -1,0 +1,16 @@
+# action.yml
+name: 'Github Pages Directory Listing'
+description: 'Generate Directory Listing index for Github Pages'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
