@@ -1,0 +1,12 @@
+# action.yml
+name: 'Github Pages Directory Listing'
+description: 'Generate Directory Listing index for Github Pages'
+inputs:
+  FOLDER:
+    description: 'folder to start index generations'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.FOLDER }}
