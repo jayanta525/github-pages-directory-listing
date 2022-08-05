@@ -1,22 +1,17 @@
-name: main
+name: release
 on: [push]
 
 jobs:
-  pages-directory-listing-master:
+  pages-directory-listing-release:
     runs-on: ubuntu-latest
-    name: Test Actions Template
+    name: Actions Template
     steps:
-      # To use this repository's private action,
-      # you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v3
-
       - name: Generate Directory Listings
-        uses: ./ # Uses an action in the root directory
+        uses: jayanta525/github-pages-directory-listing@v2.0.0
         with:
           FOLDER: tests
 
-      - name: Deploy
+      - name: Deploy to Pages
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
