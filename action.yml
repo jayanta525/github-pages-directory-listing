@@ -1,6 +1,12 @@
 # action.yml
 name: 'Github Pages Directory Listing'
-description: 'Generate Directory Listing index for Github Pages'
+description: 'Github Action to generate directory listing index for Github Pages'
+
+author: 'jayanta525'
+branding:
+  color: 'green'
+  icon: 'upload-cloud'
+
 inputs:
   FOLDER:
     description: 'folder to start index generations'
