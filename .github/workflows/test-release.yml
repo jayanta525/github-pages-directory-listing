@@ -1,0 +1,22 @@
+name: test-dummy
+on: [push]
+
+jobs:
+  pages-directory-listing-release:
+    runs-on: ubuntu-latest
+    name: Actions Template
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Directory Listings
+        uses: jayanta525/github-pages-directory-listing@v2.0.0
+        with:
+          FOLDER: data
+
+      - name: Deploy to Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages-dummy
+          FOLDER: data
