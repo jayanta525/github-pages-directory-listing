@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing
+        uses: jayanta525/github-pages-directory-listing@main
         with:
           FOLDER: data
 
