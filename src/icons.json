@@ -1,0 +1,295 @@
+[
+    {
+        "icon": "archive.svg",
+        "extension": [
+            ".zip",
+            ".7z",
+            ".bz2",
+            ".cab",
+            ".gz",
+            ".tar",
+            ".rar"
+        ]
+    },
+    {
+        "icon": "audio.svg",
+        "extension": [
+            ".aac",
+            ".aif",
+            ".aifc",
+            ".aiff",
+            ".ape",
+            ".au",
+            ".flac",
+            ".iff",
+            ".m4a",
+            ".mid",
+            ".mp3",
+            ".mpa",
+            ".ra",
+            ".wav",
+            ".wma",
+            ".f4a",
+            ".f4b",
+            ".oga",
+            ".ogg",
+            ".xm",
+            ".it",
+            ".s3m",
+            ".mod"
+        ]
+    },
+    {
+        "icon": "bin.svg",
+        "extension": [
+            ".bin",
+            ".hex"
+        ]
+    },
+    {
+        "icon": "code.svg",
+        "extension": [
+            ".xml"
+        ]
+    },
+    {
+        "icon": "doc.svg",
+        "extension": [
+            ".doc",
+            ".docx",
+            ".docm",
+            ".dot",
+            ".dotx",
+            ".dotm",
+            ".log",
+            ".msg",
+            ".odt",
+            ".pages",
+            ".rtf",
+            ".tex",
+            ".wpd",
+            ".wps"
+        ]
+    },
+    {
+        "icon": "img.svg",
+        "extension": [
+            ".bmp",
+            ".png",
+            ".tiff",
+            ".tif",
+            ".gif",
+            ".jpg",
+            ".jpeg",
+            ".jpe",
+            ".psd",
+            ".ai",
+            ".ico",
+            ".webp"
+        ]
+    },
+    {
+        "icon": "spreadsheet.svg",
+        "extension": [
+            ".xlsx",
+            ".xlsm",
+            ".xltx",
+            ".xltm",
+            ".xlam",
+            ".xlr",
+            ".xls",
+            ".csv"
+        ]
+    },
+    {
+        "icon": "presentation.svg",
+        "extension": [
+            ".ppt",
+            ".pptx",
+            ".pot",
+            ".potx",
+            ".pptm",
+            ".potm",
+            ".xps"
+        ]
+    },
+    {
+        "icon": "c++.svg",
+        "extension": [
+            ".cpp"
+        ]
+    },
+    {
+        "icon": "c.svg",
+        "extension": [
+            ".c"
+        ]
+    },
+    {
+        "icon": "css3.svg",
+        "extension": [
+            ".css",
+            ".sass",
+            ".scss",
+            ".less"
+        ]
+    },
+    {
+        "icon": "font.svg",
+        "extension": [
+            ".ttf",
+            ".TTF",
+            ".woff",
+            ".WOFF",
+            ".woff2",
+            ".WOFF2",
+            ".otf",
+            ".OTF"
+        ]
+    },
+    {
+        "icon": "h.svg",
+        "extension": [
+            ".h"
+        ]
+    },
+    {
+        "icon": "html5.svg",
+        "extension": [
+            ".html",
+            ".xhtml",
+            ".shtml",
+            ".htm",
+            ".URL",
+            ".url"
+        ]
+    },
+    {
+        "icon": "info.svg",
+        "extension": [
+            ".nfo",
+            ".info"
+        ]
+    },
+    {
+        "icon": "iso.svg",
+        "extension": [
+            "iso",
+            "img"
+        ]
+    },
+    {
+        "icon": "java.svg",
+        "extension": [
+            ".jar",
+            ".java"
+        ]
+    },
+    {
+        "icon": "js.svg",
+        "extension": [
+            ".js",
+            ".json"
+        ]
+    },
+    {
+        "icon": "markdown.svg",
+        "extension": [
+            ".md"
+        ]
+    },
+    {
+        "icon": "package.svg",
+        "extension": [
+            ".pkg",
+            ".dmg",
+            ".rpm",
+            ".deb"
+        ]
+    },
+    {
+        "icon": "pdf.svg",
+        "extension": [
+            ".pdf"
+        ]
+    },
+    {
+        "icon": "php.svg",
+        "extension": [
+            ".php",
+            ".phtml"
+        ]
+    },
+    {
+        "icon": "py.svg",
+        "extension": [
+            ".py"
+        ]
+    },
+    {
+        "icon": "rb.svg",
+        "extension": [
+            ".rb"
+        ]
+    },
+    {
+        "icon": "script.svg",
+        "extension": [
+            ".bat",
+            ".BAT",
+            ".cmd",
+            ".sh",
+            ".ps",
+            ".exe",
+            ".EXE",
+            ".msi",
+            ".MSI"
+        ]
+    },
+    {
+        "icon": "sql.svg",
+        "extension": [
+            ".sql"
+        ]
+    },
+    {
+        "icon": "text.svg",
+        "extension": [
+            ".txt",
+            ".cnf",
+            ".conf",
+            ".map",
+            ".yaml"
+        ]
+    },
+    {
+        "icon": "vector.svg",
+        "extension": [
+            ".svg",
+            ".svgz"
+        ]
+    },
+    {
+        "icon": "video.svg",
+        "extension": [
+            ".asf",
+            ".asx",
+            ".avi",
+            ".flv",
+            ".mkv",
+            ".mov",
+            ".mp4",
+            ".mpg",
+            ".rm",
+            ".srt",
+            ".swf",
+            ".vob",
+            ".wmv",
+            ".m4v",
+            ".f4v",
+            ".f4p",
+            ".ogv",
+            ".webm"
+        ]
+    }
+]

@@ -1,0 +1,123 @@
+"/png/archive.svg" .zip .7z .bz2 .cab .gz .tar .rar
+"/png/audio.svg" .aac .aif .aifc .aiff .ape .au .flac .iff .m4a .mid .mp3 .mpa .ra .wav .wma .f4a .f4b .oga .ogg .xm .it .s3m .mod
+"/png/bin.svg" .bin .hex
+"/png/code.svg" .xml
+"/png/doc.svg" .doc .docx .docm .dot .dotx .dotm .log .msg .odt .pages .rtf .tex .wpd .wps
+"/png/img.svg" .bmp .png .tiff .tif .gif .jpg .jpeg .jpe .psd .ai .ico .webp
+"/png/spreadsheet.svg" .xlsx .xlsm .xltx .xltm .xlam .xlr .xls .csv
+"/png/presentation.svg" .ppt .pptx .pot .potx .pptm .potm .xps
+"/png/c++.svg" .cpp
+"/png/c.svg" .c
+"/png/css3.svg" .css .sass .scss .less
+"/png/font.svg" .ttf .TTF .woff .WOFF .woff2 .WOFF2 .otf .OTF
+"/png/h.svg" .h
+"/png/html5.svg" .html .xhtml .shtml .htm .URL .url
+"/png/info.svg" .nfo .info
+"/png/iso.svg" .iso .img
+"/png/java.svg" .jar .java
+"/png/js.svg" .js .json
+"/png/markdown.svg" .md
+"/png/package.svg" .pkg .dmg .rpm .deb
+"/png/pdf.svg" .pdf
+"/png/php.svg" .php .phtml
+"/png/py.svg" .py
+"/png/rb.svg" .rb
+"/png/script.svg" .bat .BAT .cmd .sh .ps .exe .EXE .msi .MSI
+"/png/sql.svg" .sql
+"/png/text.svg" .txt .cnf .conf .map .yaml
+"/png/vector.svg" .svg .svgz
+"/png/video.svg" .asf .asx .avi .flv .mkv .mov .mp4 .mpg .rm .srt .swf .vob .wmv .m4v .f4v .f4p .ogv .webm
+
+
+/png/archive.svg,/png/audio.svg,/png/bin.svg,/png/code.svg,/png/doc.svg,/png/img.svg,/png/spreadsheet.svg,/png/presentation.svg,/png/c++.svg,/png/c.svg,/png/css3.svg,/png/font.svg,/png/h.svg,/png/html5.svg,/png/info.svg,/png/iso.svg,/png/java.svg,/png/js.svg,/png/markdown.svg,/png/package.svg,/png/pdf.svg,/png/php.svg,/png/py.svg,/png/rb.svg,/png/script.svg,/png/sql.svg,/png/text.svg,/png/vector.svg,/png/video.svg
+
+
+.zip,.aac,.bin,.xml,.doc,.bmp,.xlsx,.ppt,.cpp,.c,.css,.ttf,.h,.html,.nfo,.iso,.jar,.js,.md,.pkg,.pdf,.php,.py,.rb,.bat,.sql,.txt,.svg,.asf
+.7z,.aif,.hex,,.docx,.png,.xlsm,.pptx,,,.sass,.TTF,,.xhtml,.info,.img,.java,.json,,.dmg,,.phtml,,,.BAT,,.cnf,.svgz,.asx
+.bz2,.aifc,,,.docm,.tiff,.xltx,.pot,,,.scss,.woff,,.shtml,,,,,,.rpm,,,,,.cmd,,.conf,,.avi
+.cab,.aiff,,,.dot,.tif,.xltm,.potx,,,.less,.WOFF,,.htm,,,,,,.deb,,,,,.sh,,.map,,.flv
+.gz,.ape,,,.dotx,.gif,.xlam,.pptm,,,,.woff2,,.URL,,,,,,,,,,,.ps,,.yaml,,.mkv
+.tar,.au,,,.dotm,.jpg,.xlr,.potm,,,,.WOFF2,,.url,,,,,,,,,,,.exe,,,,.mov
+.rar,.flac,,,.log,.jpeg,.xls,.xps,,,,.otf,,,,,,,,,,,,,.EXE,,,,.mp4
+,.iff,,,.msg,.jpe,.csv,,,,,.OTF,,,,,,,,,,,,,.msi,,,,.mpg
+,.m4a,,,.odt,.psd,,,,,,,,,,,,,,,,,,,.MSI,,,,.rm
+,.mid,,,.pages,.ai,,,,,,,,,,,,,,,,,,,,,,,.srt
+,.mp3,,,.rtf,.ico,,,,,,,,,,,,,,,,,,,,,,,.swf
+,.mpa,,,.tex,.webp,,,,,,,,,,,,,,,,,,,,,,,.vob
+,.ra,,,.wpd,,,,,,,,,,,,,,,,,,,,,,,,.wmv
+,.wav,,,.wps,,,,,,,,,,,,,,,,,,,,,,,,.m4v
+,.wma,,,,,,,,,,,,,,,,,,,,,,,,,,,.f4v
+,.f4a,,,,,,,,,,,,,,,,,,,,,,,,,,,.f4p
+,.f4b,,,,,,,,,,,,,,,,,,,,,,,,,,,.ogv
+,.oga,,,,,,,,,,,,,,,,,,,,,,,,,,,.webm
+,.ogg,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,.xm,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,.it,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,.s3m,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,.mod,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+"[.zip,.7z,.bz2,.cab,.gz,.tar,.rar,,,,,,,,,,,,,,,,]"
+"[.aac,.aif,.aifc,.aiff,.ape,.au,.flac,.iff,.m4a,.mid,.mp3,.mpa,.ra,.wav,.wma,.f4a,.f4b,.oga,.ogg,.xm,.it,.s3m,.mod]"
+"[.bin,.hex,,,,,,,,,,,,,,,,,,,,,]"
+"[.xml,,,,,,,,,,,,,,,,,,,,,,]"
+"[.doc,.docx,.docm,.dot,.dotx,.dotm,.log,.msg,.odt,.pages,.rtf,.tex,.wpd,.wps,,,,,,,,,]"
+"[.bmp,.png,.tiff,.tif,.gif,.jpg,.jpeg,.jpe,.psd,.ai,.ico,.webp,,,,,,,,,,,]"
+"[.xlsx,.xlsm,.xltx,.xltm,.xlam,.xlr,.xls,.csv,,,,,,,,,,,,,,,]"
+"[.ppt,.pptx,.pot,.potx,.pptm,.potm,.xps,,,,,,,,,,,,,,,,]"
+"[.cpp,,,,,,,,,,,,,,,,,,,,,,]"
+"[.c,,,,,,,,,,,,,,,,,,,,,,]"
+"[.css,.sass,.scss,.less,,,,,,,,,,,,,,,,,,,]"
+"[.ttf,.TTF,.woff,.WOFF,.woff2,.WOFF2,.otf,.OTF,,,,,,,,,,,,,,,]"
+"[.h,,,,,,,,,,,,,,,,,,,,,,]"
+"[.html,.xhtml,.shtml,.htm,.URL,.url,,,,,,,,,,,,,,,,,]"
+"[.nfo,.info,,,,,,,,,,,,,,,,,,,,,]"
+"[.iso,.img,,,,,,,,,,,,,,,,,,,,,]"
+"[.jar,.java,,,,,,,,,,,,,,,,,,,,,]"
+"[.js,.json,,,,,,,,,,,,,,,,,,,,,]"
+"[.md,,,,,,,,,,,,,,,,,,,,,,]"
+"[.pkg,.dmg,.rpm,.deb,,,,,,,,,,,,,,,,,,,]"
+"[.pdf,,,,,,,,,,,,,,,,,,,,,,]"
+"[.php,.phtml,,,,,,,,,,,,,,,,,,,,,]"
+"[.py,,,,,,,,,,,,,,,,,,,,,,]"
+"[.rb,,,,,,,,,,,,,,,,,,,,,,]"
+"[.bat,.BAT,.cmd,.sh,.ps,.exe,.EXE,.msi,.MSI,,,,,,,,,,,,,,]"
+"[.sql,,,,,,,,,,,,,,,,,,,,,,]"
+"[.txt,.cnf,.conf,.map,.yaml,,,,,,,,,,,,,,,,,,]"
+"[.svg,.svgz,,,,,,,,,,,,,,,,,,,,,]"
+"[.asf,.asx,.avi,.flv,.mkv,.mov,.mp4,.mpg,.rm,.srt,.swf,.vob,.wmv,.m4v,.f4v,.f4p,.ogv,.webm,,,,,]"
+
+archive.svg,audio.svg,bin.svg,code.svg,doc.svg,img.svg,spreadsheet.svg,presentation.svg,c++.svg,c.svg,css3.svg,font.svg,h.svg,html5.svg,info.svg,iso.svg,java.svg,js.svg,markdown.svg,package.svg,pdf.svg,php.svg,py.svg,rb.svg,script.svg,sql.svg,text.svg,vector.svg,video.svg
+"[.zip,.7z,.bz2,.cab,.gz,.tar,.rar,,,,,,,,,,,,,,,,]","[.aac,.aif,.aifc,.aiff,.ape,.au,.flac,.iff,.m4a,.mid,.mp3,.mpa,.ra,.wav,.wma,.f4a,.f4b,.oga,.ogg,.xm,.it,.s3m,.mod]","[.bin,.hex,,,,,,,,,,,,,,,,,,,,,]","[.xml,,,,,,,,,,,,,,,,,,,,,,]","[.doc,.docx,.docm,.dot,.dotx,.dotm,.log,.msg,.odt,.pages,.rtf,.tex,.wpd,.wps,,,,,,,,,]","[.bmp,.png,.tiff,.tif,.gif,.jpg,.jpeg,.jpe,.psd,.ai,.ico,.webp,,,,,,,,,,,]","[.xlsx,.xlsm,.xltx,.xltm,.xlam,.xlr,.xls,.csv,,,,,,,,,,,,,,,]","[.ppt,.pptx,.pot,.potx,.pptm,.potm,.xps,,,,,,,,,,,,,,,,]","[.cpp,,,,,,,,,,,,,,,,,,,,,,]","[.c,,,,,,,,,,,,,,,,,,,,,,]","[.css,.sass,.scss,.less,,,,,,,,,,,,,,,,,,,]","[.ttf,.TTF,.woff,.WOFF,.woff2,.WOFF2,.otf,.OTF,,,,,,,,,,,,,,,]","[.h,,,,,,,,,,,,,,,,,,,,,,]","[.html,.xhtml,.shtml,.htm,.URL,.url,,,,,,,,,,,,,,,,,]","[.nfo,.info,,,,,,,,,,,,,,,,,,,,,]","[.iso,.img,,,,,,,,,,,,,,,,,,,,,]","[.jar,.java,,,,,,,,,,,,,,,,,,,,,]","[.js,.json,,,,,,,,,,,,,,,,,,,,,]","[.md,,,,,,,,,,,,,,,,,,,,,,]","[.pkg,.dmg,.rpm,.deb,,,,,,,,,,,,,,,,,,,]","[.pdf,,,,,,,,,,,,,,,,,,,,,,]","[.php,.phtml,,,,,,,,,,,,,,,,,,,,,]","[.py,,,,,,,,,,,,,,,,,,,,,,]","[.rb,,,,,,,,,,,,,,,,,,,,,,]","[.bat,.BAT,.cmd,.sh,.ps,.exe,.EXE,.msi,.MSI,,,,,,,,,,,,,,]","[.sql,,,,,,,,,,,,,,,,,,,,,,]","[.txt,.cnf,.conf,.map,.yaml,,,,,,,,,,,,,,,,,,]","[.svg,.svgz,,,,,,,,,,,,,,,,,,,,,]","[.asf,.asx,.avi,.flv,.mkv,.mov,.mp4,.mpg,.rm,.srt,.swf,.vob,.wmv,.m4v,.f4v,.f4p,.ogv,.webm,,,,,]"
+
+
+icon,extensions
+archive.svg,
+audio.svg,
+bin.svg,
+code.svg,
+doc.svg,
+img.svg,
+spreadsheet.svg,
+presentation.svg,
+c++.svg,
+c.svg,
+css3.svg,
+font.svg,
+h.svg,
+html5.svg,
+info.svg,
+iso.svg,
+java.svg,
+js.svg,
+markdown.svg,
+package.svg,
+pdf.svg,
+php.svg,
+py.svg,
+rb.svg,
+script.svg,
+sql.svg,
+text.svg,
+vector.svg,
+video.svg,
