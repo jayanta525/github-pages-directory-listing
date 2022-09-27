@@ -1,6 +1,6 @@
 [
     {
-        "icon": "archive.svg",
+        "icon": "archive",
         "extension": [
             ".zip",
             ".7z",
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "icon": "audio.svg",
+        "icon": "audio",
         "extension": [
             ".aac",
             ".aif",
@@ -40,20 +40,20 @@
         ]
     },
     {
-        "icon": "bin.svg",
+        "icon": "bin",
         "extension": [
             ".bin",
             ".hex"
         ]
     },
     {
-        "icon": "code.svg",
+        "icon": "code",
         "extension": [
             ".xml"
         ]
     },
     {
-        "icon": "doc.svg",
+        "icon": "doc",
         "extension": [
             ".doc",
             ".docx",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "icon": "img.svg",
+        "icon": "img",
         "extension": [
             ".bmp",
             ".png",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "icon": "spreadsheet.svg",
+        "icon": "spreadsheet",
         "extension": [
             ".xlsx",
             ".xlsm",
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "icon": "presentation.svg",
+        "icon": "presentation",
         "extension": [
             ".ppt",
             ".pptx",
@@ -114,19 +114,19 @@
         ]
     },
     {
-        "icon": "c++.svg",
+        "icon": "c++",
         "extension": [
             ".cpp"
         ]
     },
     {
-        "icon": "c.svg",
+        "icon": "c",
         "extension": [
             ".c"
         ]
     },
     {
-        "icon": "css3.svg",
+        "icon": "css3",
         "extension": [
             ".css",
             ".sass",
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "icon": "font.svg",
+        "icon": "font",
         "extension": [
             ".ttf",
             ".TTF",
@@ -148,13 +148,13 @@
         ]
     },
     {
-        "icon": "h.svg",
+        "icon": "h",
         "extension": [
             ".h"
         ]
     },
     {
-        "icon": "html5.svg",
+        "icon": "html5",
         "extension": [
             ".html",
             ".xhtml",
@@ -165,41 +165,41 @@
         ]
     },
     {
-        "icon": "info.svg",
+        "icon": "info",
         "extension": [
             ".nfo",
             ".info"
         ]
     },
     {
-        "icon": "iso.svg",
+        "icon": "iso",
         "extension": [
             "iso",
             "img"
         ]
     },
     {
-        "icon": "java.svg",
+        "icon": "java",
         "extension": [
             ".jar",
             ".java"
         ]
     },
     {
-        "icon": "js.svg",
+        "icon": "js",
         "extension": [
             ".js",
             ".json"
         ]
     },
     {
-        "icon": "markdown.svg",
+        "icon": "markdown",
         "extension": [
             ".md"
         ]
     },
     {
-        "icon": "package.svg",
+        "icon": "package",
         "extension": [
             ".pkg",
             ".dmg",
@@ -208,32 +208,32 @@
         ]
     },
     {
-        "icon": "pdf.svg",
+        "icon": "pdf",
         "extension": [
             ".pdf"
         ]
     },
     {
-        "icon": "php.svg",
+        "icon": "php",
         "extension": [
             ".php",
             ".phtml"
         ]
     },
     {
-        "icon": "py.svg",
+        "icon": "py",
         "extension": [
             ".py"
         ]
     },
     {
-        "icon": "rb.svg",
+        "icon": "rb",
         "extension": [
             ".rb"
         ]
     },
     {
-        "icon": "script.svg",
+        "icon": "script",
         "extension": [
             ".bat",
             ".BAT",
@@ -247,13 +247,13 @@
         ]
     },
     {
-        "icon": "sql.svg",
+        "icon": "sql",
         "extension": [
             ".sql"
         ]
     },
     {
-        "icon": "text.svg",
+        "icon": "text",
         "extension": [
             ".txt",
             ".cnf",
@@ -263,14 +263,14 @@
         ]
     },
     {
-        "icon": "vector.svg",
+        "icon": "vector",
         "extension": [
             ".svg",
             ".svgz"
         ]
     },
     {
-        "icon": "video.svg",
+        "icon": "video",
         "extension": [
             ".asf",
             ".asx",
@@ -290,6 +290,18 @@
             ".f4p",
             ".ogv",
             ".webm"
+        ]
+    },
+    {
+        "icon": "folder",
+        "extension": [
+            ".folder"
+        ]
+    },
+    {
+        "icon": "folder-home",
+        "extension": [
+            ".folder-home"
         ]
     }
 ]
