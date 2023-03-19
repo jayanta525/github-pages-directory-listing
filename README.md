@@ -8,6 +8,8 @@ Generate Directory Listings for Github Pages using Github Actions.
 
 [Demo](https://github.com/jayanta525/github-pages-directory-listing#demo)
 
+[Read about pages deployment action](https://github.com/jayanta525/github-pages-directory-listing/edit/main/README.md#note)
+
 [action.yml/workflow.yml](https://github.com/jayanta525/github-pages-directory-listing/blob/main/.github/workflows/main.yml)
 ## Usage
 ### Getting Started
@@ -84,7 +86,12 @@ jobs:
 
 ## Note
 
-This action uses Github's own pages deploy action. So, no gh-pages branch is required.
+This action uses Github's own pages deploy action. No gh-pages branch is required.
+Under `Settings > Pages > Build & Deployment` 
+
+![image](https://user-images.githubusercontent.com/30702133/226170702-74f11cba-aad2-44ca-9dc5-9f73efd76b41.png)
+
+
 
 ## Demo
 demo URL: https://jayanta525.github.io/github-pages-directory-listing/
