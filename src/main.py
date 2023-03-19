@@ -1,13 +1,15 @@
+#!/usr/bin/python3
 """
 use os package to iterate through files in a directory
 """
 import os
+import sys
 # import time
 import json
 import base64
 import datetime as dt
 
-with open('icons.json', encoding="utf-8") as json_file:
+with open('/src/icons.json', encoding="utf-8") as json_file:
     data = json.load(json_file)
 
 
@@ -15,11 +17,23 @@ def main():
     """
     main function
     """
+    if len(sys.argv) > 1:
+        print("changing directory to " + sys.argv[1])
+        # add error handling to chdir
+        try:
+            os.chdir(sys.argv[1])
+        except OSError:
+            print("Cannot change the current working Directory")
+            sys.exit()
+    else:
+        print("no directory specified")
+        sys.exit()
+
     for dirname, dirnames, filenames in os.walk('.'):
         if 'index.html' in filenames:
-            print("index.html already exists")
+            print("index.html already exists, skipping...")
         else:
-            print("index.html does not exist")
+            print("index.html does not exist, generating")
             with open(os.path.join(dirname, 'index.html'), 'w', encoding="utf-8") as f:
                 f.write("\n".join([
                     get_template_head(dirname),
@@ -68,7 +82,7 @@ def get_template_head(foldername):
     """
     get template head
     """
-    with open("template/head.html", "r", encoding="utf-8") as file:
+    with open("/src/template/head.html", "r", encoding="utf-8") as file:
         head = file.read()
     head = head.replace("{{foldername}}", foldername)
     return head
@@ -78,23 +92,15 @@ def get_template_foot():
     """
     get template foot
     """
-    with open("template/foot.html", "r", encoding="utf-8") as file:
+    with open("/src/template/foot.html", "r", encoding="utf-8") as file:
         foot = file.read()
     return foot
-
-
-def get_icon_url(filename):
-    """
-    get icon url
-    """
-    return "/png/" + get_icon_from_filename(filename)
-
 
 def get_icon_base64(filename):
     """
     get icon base64
     """
-    with open("png/" + get_icon_from_filename(filename), "rb") as file:
+    with open("/src/png/" + get_icon_from_filename(filename), "rb") as file:
         return "data:image/png;base64, " + base64.b64encode(file.read()).decode('ascii')
 
 
@@ -116,10 +122,3 @@ def get_icon_from_filename(filename):
 if __name__ == "__main__":
     main()
     # get_icon_from_filename("test.txppt")
-
-
-# for subdirname in dirnames:
-#     print("FOLDER" + os.path.join(dirname, subdirname))
-
-# for filename in filenames:
-#     print("FILE" + os.path.join(dirname, filename))
