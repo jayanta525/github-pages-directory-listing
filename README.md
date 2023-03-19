@@ -1,20 +1,24 @@
 # Github Pages Directory Listing
+[![main](https://github.com/jayanta525/github-pages-directory-listing/actions/workflows/main.yml/badge.svg)](https://github.com/jayanta525/github-pages-directory-listing/actions/workflows/main.yml)
 [![license](https://img.shields.io/github/license/jayanta525/github-pages-directory-listing)](https://github.com/jayanta525/github-pages-directory-listing/blob/main/LICENSE)
 [![Paypal Donate](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=plastic)](https://www.paypal.me/jayanta525)
+
 
 Generate Directory Listings for Github Pages using Github Actions. 
 
 [Demo](https://github.com/jayanta525/github-pages-directory-listing#demo)
+
+[action.yml/workflow.yml](https://github.com/jayanta525/github-pages-directory-listing/blob/main/.github/workflows/main.yml)
 ## Usage
 ### Getting Started
 
-Add a `.github/workflows/workflow.yml` to the root of your project where you want directory listings to be enabled.
+Add a `.github/workflows/workflow.yml` to the root of your repository.
 ```
 name: directory-listing
 on: [push]
 
 jobs:
-  pages-directory-listing-release:
+  pages-directory-listing:
     runs-on: ubuntu-latest
     name: Directory Listings Index
     steps:
@@ -24,16 +28,32 @@ jobs:
           ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v2.0.0
+        uses: jayanta525/github-pages-directory-listing@v3.0.0
         with:
-          FOLDER: data    #directory to generate index
+          FOLDER: data      #directory to generate index
 
-      - name: Deploy to Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: data
+          path: 'data'      # upload generated folder
+  
+  deploy:
+    needs: pages-directory-listing
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
 ```
 
 ### Options
@@ -44,6 +64,15 @@ jobs:
         with:
           ref: dummy-data    #checkout different branch
 ```
+#### Checkout different repository
+```
+      - name: Checkout tools repo
+        uses: actions/checkout@v3
+        with:
+          repository: my-org/my-tools     #repo public url
+          path: my-tools                  #folder to clone to
+          ref: branch-name               #branch to clone
+```
 #### Choosing a folder to generate indexing
 ```
       - name: Generate Directory Listings
@@ -51,8 +80,22 @@ jobs:
         with:
           FOLDER: data    #directory to generate index
 ```
+#### Refer here for more options: https://github.com/marketplace/actions/checkout
+
+## Note
+
+This action uses Github's own pages deploy action. So, no gh-pages branch is required.
 
 ## Demo
-demo URL: https://jayanta525.github.io/openwrt-r4s-kmods/
+demo URL: https://jayanta525.github.io/github-pages-directory-listing/
 
-![image](https://user-images.githubusercontent.com/30702133/184577947-7ebc8b2e-3998-47c7-9289-4069f281f13a.png)
+
+### Desktop view
+
+![image](https://user-images.githubusercontent.com/30702133/226169193-66c27c81-fdc7-499d-88e4-1a1c8571ecce.png)
+
+### Mobile View
+
+![image](https://user-images.githubusercontent.com/30702133/226169252-b74d3a40-7928-4804-bd66-8292a6259531.png)
+
+
