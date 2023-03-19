@@ -4,21 +4,23 @@ on: [push]
 jobs:
   pages-directory-listing-master:
     runs-on: ubuntu-latest
-    name: Test Actions Template
+    name: Run Actions Template
     steps:
       # To use this repository's private action,
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: dummy-data
 
       - name: Generate Directory Listings
-        uses: ./ # Uses an action in the root directory
+        uses: jayanta525/github-pages-directory-listing@main
         with:
-          FOLDER: tests
+          FOLDER: data
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: tests
+          FOLDER: data
