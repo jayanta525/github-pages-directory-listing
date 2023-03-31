@@ -1,2 +1,2 @@
 #!/bin/sh -l
-/src/main.py $1/.
+python3 /src/main.py $1/.
