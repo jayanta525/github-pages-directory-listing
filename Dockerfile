@@ -1,6 +1,7 @@
-ARG VARIANT="3.10-bullseye"
-FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
+ARG VARIANT="3.11-alpine3.17"
+FROM python:${VARIANT}
 
+RUN apk add --no-cache bash
 COPY entrypoint.sh /entrypoint.sh
 ADD src /src
 
