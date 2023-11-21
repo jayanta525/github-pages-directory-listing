@@ -30,7 +30,7 @@ jobs:
           ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v3.0.0
+        uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: data      #directory to generate index
 
@@ -78,7 +78,7 @@ jobs:
 #### Choosing a folder to generate indexing
 ```
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v2.0.0
+        uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: data    #directory to generate index
 ```
