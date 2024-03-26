@@ -86,6 +86,14 @@ def get_template_head(foldername):
     """
     get template head
     """
+
+    # remove the dot (.) at the beginning of foldername
+    if foldername.startswith('.'):
+        if not foldername.startswith('/', 1):
+            return get_template_head('/' + foldername[1:])
+        else:
+            return get_template_head(foldername[1:])
+
     with open("/src/template/head.html", "r", encoding="utf-8") as file:
         head = file.read()
     head = head.replace("{{foldername}}", foldername)
