@@ -25,7 +25,7 @@ jobs:
     name: Directory Listings Index
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: dummy-data    #checkout different branch
 
@@ -35,7 +35,7 @@ jobs:
           FOLDER: data      #directory to generate index
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: 'data'      # upload generated folder
   
@@ -55,21 +55,21 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4.0.0
 ```
 
 ### Options
 #### Checkout different branch
 ```
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: dummy-data    #checkout different branch
 ```
 #### Checkout different repository
 ```
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: my-org/my-tools     #repo public url
           path: my-tools                  #folder to clone to
